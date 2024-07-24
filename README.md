@@ -16,7 +16,7 @@ Using your knowledge of Pandas and scikit-learn’s StandardScaler(), preprocess
 
 Open the starter code file and complete the following data preparation steps:
 
-Read the data from https://static.bc-edx.com/ai/ail-v-1-0/m18/lms/datasets/student-loans.csvLinks to an external site. into a Pandas DataFrame. Review the DataFrame, looking for columns that could eventually define your features and target variables.
+Read the data from https://static.bc-edx.com/ai/ail-v-1-0/m18/lms/datasets/student-loans.csv to an external site. into a Pandas DataFrame. Review the DataFrame, looking for columns that could eventually define your features and target variables.
 
 Create the features (X) and target (y) datasets. The target dataset should be defined by the “credit_ranking” column. The remaining columns should define the features dataset.
 
@@ -57,3 +57,9 @@ Briefly answer the following questions in the space provided:
 
 3. Describe two real-world challenges that you would take into consideration while building a recommendation system for student loans. Explain why these challenges would be of concern for a student loan recommendation system.
 
+
+## My process
+### Tuning
+I spent most of my time on the hyperparameter tuning. After letting the tuning run and getting a pretty high training score, the test score hardly moved.
+
+Perhaps I need to look at different hyperparameter, but it was dissapointing to have such little improvement.
