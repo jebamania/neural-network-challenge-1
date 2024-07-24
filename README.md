@@ -63,6 +63,6 @@ Briefly answer the following questions in the space provided:
 ### Tuning
 I spent most of my time on the hyperparameter tuning. After letting the tuning run and getting a pretty high training score, the test score hardly moved.
 
-Perhaps I need to look at different hyperparameter, but it was dissapointing to have such little improvement.
+Perhaps I need to look at different hyperparameters, but it was dissapointing to have such little improvement.
 
-I did learn about some new layers such as Embedding and BatchNormalization. Embedding being for natural language processing because I got errors using it because it change the shape of the data along the way. In one of my tuning runs, Batch Normalization was the best first layer, which was interesting.
+I did learn about some new layers such as Embedding and BatchNormalization. Embedding being for natural language processing which gave me errors using it because it changed the shape of the data along the way. In one of my tuning runs, Batch Normalization was the best first layer, which was interesting.
